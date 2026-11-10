@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=""en>
+<head>
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            background-color: blue;
+            color: white
+        }
+        
+        body {
+            display: grid;
+            grid-template-columns: 1fr 200px 1fr;
+            gap: 20px;
+        }
+
+        #first-div {
+            background-color: red;
+            grid-column: 1 / 4;
+        } 
+
+        div:nth-child(2) {
+            background-color: green;
+            grid-row: 2 / 4;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="first-div">1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</body>
+</html>

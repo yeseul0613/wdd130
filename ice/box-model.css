@@ -1,0 +1,12 @@
+/* challenge: Color H1 blue*/
+
+/* CSS element selectoe*/
+h1 {
+    color: #0000FF;
+    margin-left: 150px;
+    text-align: center;
+    border-with: 5px;
+    boeder-color: brown;
+    border-radius: 15px;
+    padding: 20
+}

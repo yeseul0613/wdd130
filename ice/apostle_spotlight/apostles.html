@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        #apostles-section {
+            background-image: url('images/christus.webp');
+            background-size: cover;
+            background-position: center;
+            width: 1000px;
+            height: 800px;
+            border: 5px solid black;
+            border-radius: 15px;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            color: white;
+            text-align: center;
+            font-weight: normal;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin:0 0 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        img {
+            border-radius: 100%;
+            border: 4px solid white;
+            object-fit: cover;
+            height: 100px;
+            width: 100px;
+        }
+
+        #first-presidency {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #first-presidency img {
+            height: 95px;
+            width: 95px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+        }
+
+
+        #first-presidency img:nth-child(2) {
+            height: 150px;
+            width: 150px;
+        }
+
+        #apostles {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-items: center;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     <div id="apostles-section">
+        <h1>First Presidency</h1>
+        <div id="first-presidency">
+            <img src="images/eyring.webp" alt="President Eyring">
+            <img src="images/oaks.webp" alt="President Oaks">
+            <img src="images/christofferson.webp" alt="'President Christofferson">
+        </div>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div id="apostles">
+            <img src="images/uchtdorf.webp" alt="apostle">
+            <img src="images/bednar.webp" alt="apostle">
+            <img src="images/cook.webp" alt="apostle">
+            <img src="images/anderson.webp" alt="apostle">
+            <img src="images/rasband.webp" alt="apostle">
+            <img src="images/stevenson.webp" alt="apostle">
+            <img src="images/renlund.webp" alt="apostle">
+            <img src="images/gong.webp" alt="apostle">
+            <img src="images/soares.webp" alt="apostle">
+            <img src="images/kearon.webp" alt="apostle">
+            <img src="images/causse.webp" alt="apostle">
+            <img src="images/gilbert.webp" alt="apostle">
+        </div>
+
+</body>
+</html>

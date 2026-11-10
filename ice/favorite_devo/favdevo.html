@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+        <table>
+          <!--tr is table row-->
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Dan Barnes</td>
+            <td>Your Identity and Worth</td>
+            <td>BYU-Idaho</td>
+            <td>2026</td>
+          </tr>
+          <tr>
+            <td>Ross Baron</td>
+            <td>Authorized Messengers and the Gift of the Holy Ghost</td>
+            <td>BYU-Idaho</td>
+            <td>2018</td>
+          </tr>
+          <tr>
+            <td>Elder Fantone</td>
+            <td>The Battle IS the Lord'</td>
+            <td>BYU-Idaho</td>
+            <td>2026</td>
+          </tr>
+        </table>
+        <form>
+          <label for="speaker">Speaker: </label>
+          <input type="text" id="speaker" required>
+
+          <label for="title">Title: </label>
+          <input type="text" id="title">
+
+          <label for="location">Location: </label>
+          <input type="text" id="location">
+
+          <label for="year">Year: </label>
+          <input type="date" id="year">
+
+          <input type="submit" value="'Submit">
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
